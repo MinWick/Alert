@@ -8,12 +8,11 @@ const ShowAlert = ({height,width,colorFond,textColor,texto}) => {
                 background:colorFond, 
                 color:textColor,
                 borderRadius:'3px',
-                
+                padding: '5px 50px',
+                margin:'15px'
             }}>
                 {texto}
             </div>
-            <br />
-        
         </div>
 
     )
