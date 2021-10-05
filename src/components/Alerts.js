@@ -2,14 +2,16 @@ const ShowAlert = ({height,width,colorFond,textColor,texto}) => {
         
     return (
         <div>
+            <br />
+            <br />
             <div style={{
                 height: height,
                 width:width,
                 background:colorFond, 
                 color:textColor,
-                borderRadius:'3px',
-                padding: '5px 50px',
-                margin:'15px'
+                borderRadius:'7px',
+                padding: '10px 20px',
+                margin:'0px'
             }}>
                 {texto}
             </div>
